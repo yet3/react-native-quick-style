@@ -1,0 +1,17 @@
+pre-commit:
+  parallel: true
+  commands:
+    test:
+      run: npm test
+    format:
+      files: git diff --name-only @{push}
+      glob: "*.{js,ts,jsx,tsx}"
+      run: prettier --write {files}
+    lint:
+      files: git diff --name-only @{push}
+      glob: "*.{js,ts,jsx,tsx}"
+      run: eslint {files}
+    types:
+      files: git diff --name-only @{push}
+      glob: "*.{js,ts, jsx, tsx}"
+      run: tsc --noEmit
