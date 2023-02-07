@@ -51,6 +51,7 @@
   },
   "homepage": "https://github.com/yet3/react-native-quick-style.git#readme",
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
