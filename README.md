@@ -1,8 +1,8 @@
 # @yet3/react-native-quick-style
 
-![GitHub license](https://img.shields.io/github/license/yet3/svg2jspdf?style=flat)
-<a href='https://www.npmjs.com/package/@yet3/svg2jspdf'>
-![npm](https://img.shields.io/npm/v/@yet3/svg2jspdf)
+![GitHub license](https://img.shields.io/github/license/yet3/react-native-quick-style?style=flat)
+<a href='https://www.npmjs.com/package/@yet3/react-native-quick-style'>
+![npm](https://img.shields.io/npm/v/@yet3/react-native-quick-style)
 </a>
 
 ![react-native-quick-style preview](./public/auto-cmp-preview.gif)
