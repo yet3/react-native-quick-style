@@ -157,9 +157,5 @@
       ]
     ]
   },
-  "dependencies": {
-    "@types/lodash.clonedeep": "^4.5.7",
-    "lodash.clonedeep": "^4.5.0",
-    "ts-toolbelt": "^9.6.0"
-  }
+  "dependencies": {}
 }
