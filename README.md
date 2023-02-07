@@ -9,6 +9,8 @@
 
 Make changing often used styles on your components easier.
 
+Expo snack: https://snack.expo.dev/@yet3/yet3-react-native-quick-style-snack
+
 ## Installation
 
 ```sh
