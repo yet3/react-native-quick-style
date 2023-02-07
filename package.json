@@ -1,7 +1,7 @@
 {
   "name": "@yet3/react-native-quick-style",
   "version": "1.0.0",
-  "description": "test",
+  "description": "Make changing often used styles on your components easier",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
