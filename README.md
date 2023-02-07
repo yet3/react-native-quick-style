@@ -38,7 +38,7 @@ const qsConfig = qs({
       mb: 'marginBottom',
       mr: 'marginRight',
       ml: 'marginLeft',
-      bgColor: (value: 'red' | 'blue' | 'yellow') => 'backgroundColor',
+      bgColor: (_: 'red' | 'blue' | 'yellow') => 'backgroundColor',
       size: (value: 'sm' | 'lg') => {
         return {
           width: value === 'sm' ? 50 : 100
@@ -127,7 +127,7 @@ or function returning style object or name of css property:
       height: value === 'sm' ? 25 : 50
     }
   },
-  bgColor: (value: 'red' | 'blue' | 'yellow') => 'backgroundColor',
+  bgColor: (_: 'red' | 'blue' | 'yellow') => 'backgroundColor',
 }
 ```
 

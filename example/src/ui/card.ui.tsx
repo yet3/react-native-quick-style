@@ -1,10 +1,6 @@
 import * as React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import {
-  qs,
-  useQuickStyle,
-  withQuickStyle,
-} from '@yet3/react-native-quick-style';
+import { StyleSheet, View } from 'react-native';
+import { qs, withQuickStyle } from '@yet3/react-native-quick-style';
 import type { QsProps } from 'src/custom';
 import { QsPresets } from './qsPresets';
 

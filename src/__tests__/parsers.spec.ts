@@ -100,11 +100,11 @@ describe('parsers', () => {
           },
           qsStyle: {
             props: {
-              mt: (val: number) => 'marginTop',
+              mt: (_: number) => 'marginTop',
               mb: (val: number | string) => ({ marginBottom: val }),
               size: (val: 'sm' | 'md') => ({
-                width: val == 'sm' ? 50 : 100,
-                height: val == 'sm' ? 25 : 50,
+                width: val === 'sm' ? 50 : 100,
+                height: val === 'sm' ? 25 : 50,
               }),
             },
           },
@@ -159,7 +159,7 @@ describe('parsers', () => {
         },
       };
 
-      it('should override style prop', () => {
+      it('should override style prop when overrideStyleProps = true', () => {
         const parsed = parseQsConfig({
           compProps: comProps,
           config: { ...qsConfig, options: { overrideStyleProps: true } },
@@ -168,7 +168,7 @@ describe('parsers', () => {
         expect(parsed).toEqual(expectedResult);
       });
 
-      it('should override style prop', () => {
+      it('should override style prop when overrideStyleProps = undefined', () => {
         const parsed = parseQsConfig({
           compProps: comProps,
           config: { ...qsConfig, options: {} },

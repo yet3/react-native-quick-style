@@ -6,11 +6,11 @@ pre-commit:
     format:
       files: git diff --name-only @{push}
       glob: "*.{js,ts,jsx,tsx}"
-      run: prettier --write {files}
+      run: npx prettier --write {files}
     lint:
       files: git diff --name-only @{push}
       glob: "*.{js,ts,jsx,tsx}"
-      run: eslint {files}
+      run: npx eslint {files}
     types:
       files: git diff --name-only @{push}
       glob: "*.{js,ts, jsx, tsx}"
